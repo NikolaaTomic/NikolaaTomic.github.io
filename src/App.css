@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Ebrima;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Header*/
+.logo{
+    width: 436px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header{
+    position: relative;
+    margin-top: 0px;
+    top: -16px;
+    background-image: url("slike/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 15%;
+    height: 590px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navigacija{
+    margin-top: 0px;
+    background-color: rgba(196, 192, 192, 0.623);
 }
-
-.App-link {
-  color: #61dafb;
+.navigacija ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigacija li{
+    margin: auto;
+}
+.link{
+    color: rgb(71, 166, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.link:visited{
+    color: rgb(63, 145, 223);;
+}
+.link:hover{
+    text-decoration: underline;
+    color: rgb(233, 83, 83);
+}
+.link:active{
+    text-decoration: underline;
+    color: cadetblue;
+}
+/*Footer*/
+.Footer{
+    background-color: rgba(196, 192, 192, 0.623);
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+}
+.Footer p{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+/*Main*/
+h1{
+    text-align-last: center;
+    color: rgb(77, 75, 75);
+}
+.tekst{
+    width: 50%;
+    margin: auto;
+    color: rgb(97, 94, 94);
+}
+/*Forma*/
+form{
+    position: relative;
+    right: -35%;
+    width: 250px;
+}
+.ime{
+    width: 150px;
+    margin: 5px;
+}
+.forma1{
+    float: left;
+}
+.forma2{
+    float: right;
+    left: -35%;
+}
+.formhr{
+    position: relative;
+    top: 8px;
+    width: 900px;
+}
+.mapa{
+    position: relative;
+    left: 30%;
+}
+.botun{
+    position: relative;
+    top: -14px;
+}
+.ispis{
+    text-align: left;
+    position: relative;
+    left: 820px;
+    font-size: 20px;
+    width: 900px;  
+}
+/*Flota*/
+.podnaslov{
+    text-align: center;
+    color: rgb(97, 94, 94);
+}
+.tekst2{
+    width: 65%;
+    margin: auto;
+    color: rgb(97, 94, 94);
+}
+.tekst2 h2{
+    color: rgb(77, 75, 75);
+    text-align: center;
+}
+.slika1{
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+}
+.slika2{
+    float: right;
+    width: 400px;
+    margin-left: 10px;
+}
+/*Raspored*/
+.tablica{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+}
+.tablica tr{
+    border-bottom: 2px solid black;
+    line-height: 44px;
+}
+.tablica tr:hover{
+    background-color: rgba(216, 211, 211, 0.623);
+    color: rgb(112, 112, 112);
 }
